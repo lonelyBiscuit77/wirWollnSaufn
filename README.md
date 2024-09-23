@@ -27,13 +27,17 @@ In the env install selenium:
 pip install selenium
 ```
 
-Change directory using ```cd``` to go to the folder where you have the script. Example where the scripts are in the folder ```wirWollnSaufn``` with the path ```/Volumes/T7/HSS_buchung/own/wirWollnSaufn```:
-```bash
-cd /Volumes/T7/HSS_buchung/own/wirWollnSaufn
-``` 
-you are now in the folder ```wirWollnSaufn```.
+# Download the script and input your data
 
-Open the ```inputLogin.json``` file and input your values. Especially for the ```status``` field it is extremely important that you type in the exact text the dropdown menu would show. Don't mess this is up. Save the file after modifying. 
+Download the script either with ```git clone``` or by clicking on the green ```code``` button up top and downloading the zip file and unzip it. 
+
+Change directory using ```cd``` to go to the folder where you have the script. If it is in your downloads folder, the path probably looks something like this ```/Users/your_usernmae/Downloads/wirWollnSaufn``` Example where the scripts are in the folder ```wirWollnSaufn``` with the path ```/Users/your_usernmae/Downloads/wirWollnSaufn```:
+```bash
+cd /Users/your_usernmae/Downloads/wirWollnSaufn
+``` 
+you are now in the folder ```wirWollnSaufn```. This is where we will be running the scripts from. Type ```ls -l``` into the terminal to make sure you see the correct files.
+
+Open the ```inputLogin.json``` file and input your values. Especially for the ```status``` field it is extremely important that you type in the exact text the dropdown menu would show. Don't mess this is up. Check on the hochschulsport page what option applies to you and write it exactly the way they do in the dropdown menu. The email and password are the account credentials used for your huchschulsport account. Save the file after modifying. 
 
 
 
