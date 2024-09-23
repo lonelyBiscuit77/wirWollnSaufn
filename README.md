@@ -36,7 +36,8 @@ Open the ```inputLogin.json``` file and input your values. Especially for the ``
 **IMPORTANT**: If you use the script ```davos_withLogin.py``` it assumes you **already** have a hochschulsport account. If you don't have one, go create one. 
 
 
-# Run 
+# Run (from the folder ```wirWollnSaufn```):
+The ```default booking_url``` stored in the json file is for the davos trip in march. Change that to whatever trip you want to take. 
 Now you can run the script with:
 ```bash
 python3 davosBook_withLogin.py
@@ -46,15 +47,16 @@ The site refreshes every couple seconds and automatically detects the correct bo
 You will be brought to the final booking page where you have to **MANUALLY** click the final conformation button **kostenpflichtig buchen**. This button is not pressed automatically. 
 
 
-
 # Testing
+Change the ```default booking_url``` to ```https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html```. 
+You can now test whether everything works with the ```testSUP_withLogin.py``` file. This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
 
-You can test whether everything works with the ```testSUP_withLogin.py``` file. This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
-
-Run:
+Run (from the folder ```wirWollnSaufn```):
 ```bash
 python3 testSUP_withLoign.py
 ```
+
+
 
 
 
