@@ -47,6 +47,15 @@ You will be brought to the final booking page where you have to **MANUALLY** cli
 
 
 
+# Testing
+
+You can test whether everything works with the ```testSUP_withLogin.py``` file. This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
+
+Run:
+```bash
+python3 testSUP_withLoign.py
+```
+
 
 
 
