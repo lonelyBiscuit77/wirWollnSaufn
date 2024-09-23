@@ -36,9 +36,9 @@ Open the ```inputLogin.json``` file and input your values. Especially for the ``
 **IMPORTANT**: If you use the script ```davos_withLogin.py``` it assumes you **already** have a hochschulsport account. If you don't have one, go create one. 
 
 
-# Run (from the folder ```wirWollnSaufn```):
+# Run:
 The ```default booking_url``` stored in the json file is for the davos trip in march. Change that to whatever trip you want to take. 
-Now you can run the script with:
+Now you can run (from the folder ```wirWollnSaufn```) the script with:
 ```bash
 python3 davosBook_withLogin.py
 ```
