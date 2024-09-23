@@ -47,7 +47,7 @@ python3 davosBook_withLogin.py
 You can quit the running of the script with ```Ctrl + z```
 
 
-The site refreshes every couple seconds and automatically detects the correct booking button depending on your age (whether you're above or below 26). If this fail you can are still able to manually click the buttons. The rest should fill automatically. 
+The site refreshes every couple seconds and automatically detects the correct booking button depending on your age (whether you're above or below 26). If this fails you are still able to manually click the buttons. The rest should fill automatically. 
 You will be brought to the final booking page where you have to **MANUALLY** click the final conformation button **kostenpflichtig buchen**. This button is not pressed automatically. 
 
 
