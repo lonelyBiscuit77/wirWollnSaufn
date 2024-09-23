@@ -1,15 +1,15 @@
 {
-    "email": "posonkur@gmail.com",
-    "password": "Colombo2002.",  
-    "iban": "DE06430609671235438300",
-    "first_name": "Poson",
-    "surname": "Kuruppu",
-    "street": "Beeckstr. 11",
+    "email": "your.email@gmail.com",
+    "password": "yourPassword",  
+    "iban": "DE57500105176485523638",
+    "first_name": "Bob",
+    "surname": "derBaumeister",
+    "street": "Str 1",
     "zip": "52062",
     "city": "Aachen",
-    "status": "StudentIn der RWTH",
-    "matriculation_number": "423753",
-    "phone": "017643850294",
+    "status": "StudentIn der RWTH", 
+    "matriculation_number": "444444",
+    "phone": "0049573849210",
     "age": 22,
-    "booking_url": "https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html"
+    "booking_url": "https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Extratouren_Davos_Maerz.html"
   }
