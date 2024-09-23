@@ -4,7 +4,7 @@
 The script only works with chrome. You MUST use chrome. To install the correct chrome driver version first go to ```chrome://settings/help``` and check your version. 
 Then download the correct version from [here](https://developer.chrome.com/docs/chromedriver/downloads) or [here](https://googlechromelabs.github.io/chrome-for-testing/#stable). Install the correct version for your OS (windows or mac), don't worry if the exact versions don't match, just make sure it's as close as possible. 
 
-On mac I used: [this](https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.58/mac-arm64/chromedriver-mac-arm64.zip).
+On mac I used: [this](https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.58/mac-arm64/chromedriver-mac-arm64.zip) (used 24.09.24).
 
 Unzip the zip file and you should see a chrome driver file in some folder, just move this file to the downloads folder. We need to move the chrome driver to system path. First open a new terminal window. For mac the command looks like this (you may get prompted for your password):
 ```bash
