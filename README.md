@@ -33,15 +33,19 @@ you are now in the folder ```wirWollnSaufn```.
 
 Open the ```inputLogin.json``` file and input your values. Especially for the ```status``` field it is extremely important that you type in the exact text the dropdown menu would show. Don't mess this is up. Save the file after modifying. 
 
-**IMPORTANT**: If you use the script ```davos_withLogin.py``` it assumes you **already** have a hochschulsport account. If you don't have one, go create one. 
 
 
 # Run:
+**IMPORTANT**: If you use the script ```davos_withLogin.py``` it assumes you **already** have a hochschulsport account. If you don't have one, go create one. 
+
+
 The ```default booking_url``` stored in the json file is for the davos trip in march. Change that to whatever trip you want to take. 
 Now you can run (from the folder ```wirWollnSaufn```) the script with:
 ```bash
 python3 davosBook_withLogin.py
 ```
+You can quit the running of the script with ```Ctrl + z```
+
 
 The site refreshes every couple seconds and automatically detects the correct booking button depending on your age (whether you're above or below 26). If this fail you can are still able to manually click the buttons. The rest should fill automatically. 
 You will be brought to the final booking page where you have to **MANUALLY** click the final conformation button **kostenpflichtig buchen**. This button is not pressed automatically. 
