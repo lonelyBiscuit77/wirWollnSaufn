@@ -43,6 +43,18 @@ Open the ```inputLogin.json``` file and input your values.
 The email and password are the account credentials used for your huchschulsport account. 
 Save the file after modifying. 
 
+# Testing
+Change the default ```booking_url``` in the ```json``` file to some other booking that is currently open. 
+For example: ```https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html```. 
+You can now test whether everything works and you login successfully by running the ```davos_withLogin.py``` file. 
+You should end up on the page final booking page that shows the button **kostenpflichtig buchen**.
+If you don't end up on this page then something went wrong. 
+You will **NOT** book the course, as you have to **MANUALLY** click the final conformation button **kostenpflichtig buchen**, so don't worry. 
+
+Run (from the folder ```wirWollnSaufn```):
+```bash
+python3 davos_withLoign.py
+```
 
 
 # Run:
@@ -61,15 +73,7 @@ The site refreshes every couple seconds and automatically detects the correct bo
 You will be brought to the final booking page where you have to **MANUALLY** click the final conformation button **kostenpflichtig buchen**. This button is not pressed automatically. 
 
 
-# Testing
-Change the ```default booking_url``` in the json file to some other booking that is currently open. For example: ```https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html```. 
-You can now test whether everything works with the ```davos_withLogin.py``` file. 
-This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
 
-Run (from the folder ```wirWollnSaufn```):
-```bash
-python3 davos_withLoign.py
-```
 
 
 
