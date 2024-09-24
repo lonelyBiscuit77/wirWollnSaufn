@@ -38,8 +38,6 @@ cd /Users/your_usernmae/Downloads/wirWollnSaufn
 you are now in the folder ```wirWollnSaufn```. This is where we will be running the scripts from. Type ```ls -l``` into the terminal to make sure you see the correct files.
 
 Open the ```inputLogin.json``` file and input your values. 
-[comment](Especially for the ```status``` field it is extremely important that you type in the exact text the dropdown menu would show.)
-[comment](Don't mess this is up. Check on the hochschulsport page what option applies to you and write it exactly the way they do in the dropdown menu.)
 The email and password are the account credentials used for your huchschulsport account. 
 Save the file after modifying. 
 
