@@ -99,7 +99,7 @@ try:
     terms_checkbox.click()
     print("Terms and conditions accepted.")
 except Exception as e:
-    print(f"Failed to fill IBAN or check terms: {e}")
+    print(f"Failed to fill IBAN: {e}")
 
 try:
     final_button = WebDriverWait(driver, 10).until(
@@ -110,5 +110,5 @@ try:
 except Exception as e:
     print(f"Failed to click final 'weiter zur Buchung' button: {e}")
 
-print("Script completed. Please review the page and close the browser manually.")
+print("close the browser manually and then press Crtl + z to stop the script")
 time.sleep(300)  # Keep the browser open for 5 minutes (300 seconds), or adjust as needed
