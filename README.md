@@ -62,12 +62,13 @@ You will be brought to the final booking page where you have to **MANUALLY** cli
 
 
 # Testing
-Change the ```default booking_url``` to ```https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html```. 
-You can now test whether everything works with the ```testSUP_withLogin.py``` file. This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
+Change the ```default booking_url``` in the json file to some other booking that is currently open. For example: ```https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester/_SUP_-_Stand_Up_Paddle.html```. 
+You can now test whether everything works with the ```davos_withLogin.py``` file. 
+This tests whether you are able to login successfully. You will **NOT** book the course so don't worry. 
 
 Run (from the folder ```wirWollnSaufn```):
 ```bash
-python3 testSUP_withLoign.py
+python3 davos_withLoign.py
 ```
 
 
