@@ -2,14 +2,6 @@
     "email": "your.email@gmail.com",
     "password": "yourPassword",  
     "iban": "DE57500105176485523638",
-    "first_name": "Bob",
-    "surname": "derBaumeister",
-    "street": "Str 1",
-    "zip": "52062",
-    "city": "Aachen",
-    "status": "StudentIn der RWTH", 
-    "matriculation_number": "444444",
-    "phone": "0049573849210",
     "age": 22,
     "booking_url": "https://buchung.hsz.rwth-aachen.de/angebote/Wintersemester/_Extratouren_Davos_Maerz.html"
   }
