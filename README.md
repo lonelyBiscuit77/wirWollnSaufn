@@ -51,7 +51,7 @@ You will **NOT** book the course, as you have to **MANUALLY** click the final co
 
 Run (from the folder ```wirWollnSaufn```):
 ```bash
-python3 davos_withLoign.py
+python3 davos_withLogin.py
 ```
 
 
@@ -62,7 +62,7 @@ python3 davos_withLoign.py
 The ```default booking_url``` stored in the json file is for the davos trip in march. Change that to whatever trip you want to take. 
 Now you can run (from the folder ```wirWollnSaufn```) the script with:
 ```bash
-python3 davosBook_withLogin.py
+python3 davos_withLogin.py
 ```
 You can quit the running of the script with ```Ctrl + z```
 
