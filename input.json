@@ -1,0 +1,16 @@
+{
+    "first_name": "Bob",
+    "surname": "Kuruppu",
+    "age": 22,
+    "street": "Adakbertsteinweg. 11",
+    "zip": "52062",
+    "city": "Aachen",
+    "status": "StudentIn der RWTH",
+    "matriculation_number": "424583",
+    "email": "test.user@example.com",
+    "phone": "0123456789",
+    "iban": "DE82500105174986227653"
+  }
+
+
+  
